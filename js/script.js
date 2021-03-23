@@ -32,7 +32,6 @@ var number;
  for (var i = 1; i <= 100; i++) {
      // console.log(number = i);
 
-    
     if ((i % 3 == 0) && ((i % 5 == 0) || (i % 5 == 5))) {
         console.log(number = 'FizzBuzz');
 

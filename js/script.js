@@ -27,18 +27,43 @@ console.log('js ok')
 //     }
 // }
 
+// var number;
+
+//  for (var i = 1; i <= 100; i++) {
+//      // console.log(number = i);
+
+//     if ((i % 3 == 0) && ((i % 5 == 0) || (i % 5 == 5))) {
+//         console.log(number = 'FizzBuzz');
+
+//     } else if (i % 3 == 0) {
+//         console.log(number = 'Fizz')
+
+//     } else if ((i % 5 == 0) || (i % 5 == 5)) {
+//         console.log(number = 'Buzz')
+//     }
+//      else {
+//         console.log(number = i)
+//     }
+
+// }
+
+
+
+
+
+
 var number;
 
  for (var i = 1; i <= 100; i++) {
      // console.log(number = i);
 
-    if ((i % 3 == 0) && ((i % 5 == 0) || (i % 5 == 5))) {
+    if (i % 15 == 0) {
         console.log(number = 'FizzBuzz');
 
     } else if (i % 3 == 0) {
         console.log(number = 'Fizz')
 
-    } else if ((i % 5 == 0) || (i % 5 == 5)) {
+    } else if (i % 5 == 0) {
         console.log(number = 'Buzz')
     }
      else {
